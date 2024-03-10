@@ -98,6 +98,25 @@ python run_glue.py \
     --output_dir results/ft/roberta_base/mrpc
 ```
 
+## Creating and starting a virtual environment for Python 3
+
+Create a directory for a virtual environment:
+
+```
+/InServiceOfX$ python3 -m venv ./venv/
+```
+
+Activate it:
+```
+/InServiceOfX$ source ./venv/bin/activate
+```
+You should see the prompt have a prefix `(venv)`.
+
+Deactivate it:
+```
+deactivate
+```
+
 ## Citation
 ```bibtex
 @misc{zhao2024galore,
@@ -109,3 +128,4 @@ python run_glue.py \
       primaryClass={cs.LG}
 }
 ```
+
